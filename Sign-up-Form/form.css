@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Norse";
-  src: url(./assests/fonts/Norse-Bold.otf);
+  src: url(./assets/fonts/Norse-Bold.otf);
 }
 body {
   height: 100vh;
@@ -17,7 +17,7 @@ body {
       grid-row: 1/-1;
       display: grid;
       grid-template-rows: repeat(6, 1fr);
-      background-image: url("assests/imgs/halie-west.jpg");
+      background-image: url("assets/imgs/halie-west.jpg");
       background-size: cover;
       .hero-container {
         grid-row: 2;
