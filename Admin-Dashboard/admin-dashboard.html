@@ -5,57 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
     <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
-      href="assets/fontawesome-free-5.15.4-web/css/all.css"
     />
   </head>
   <body>
     <div class="admin-dashboard-container">
       <aside class="sidebar-container">
         <div class="sidebar-header-container">
-          <i class="logo-i"></i>
+          <span class="material-icons icon-nav">dashboard</span>
           <h1>Dashboard</h1>
         </div>
         <div class="sidebar-main-nav">
           <ul>
-            <li><i class="fas fa-home"></i><a href="#">Home</a></li>
-            <li><i class="fas fa-id-card"></i><a href="#">Profile</a></li>
-            <li><i class="fas fa-comment-alt"></i><a href="#">Messages</a></li>
-            <li><i class="fas fa-clock"></i><a href="#">History</a></li>
-            <li><i class="fas fa-file"></i><a href="#">Tasks</a></li>
-            <li><i class="fas fa-users"></i><a href="#">Communities</a></li>
+            <li>
+              <span class="material-icons icon-nav">home</span><a href="#">Home</a>
+            </li>
+            <li>
+              <span class="material-icons icon-nav">badge</span><a href="#">Profile</a>
+            </li>
+            <li>
+              <span class="material-icons icon-nav">chat</span><a href="#">Messages</a>
+            </li>
+            <li>
+              <span class="material-icons icon-nav">history</span><a href="#">History</a>
+            </li>
+            <li>
+              <span class="material-icons icon-nav">description</span><a href="#">Tasks</a>
+            </li>
+            <li>
+              <span class="material-icons icon-nav">group</span><a href="#">Communities</a>
+            </li>
           </ul>
         </div>
         <div class="sidebar-secondary-nav">
           <ul>
-            <li><i class="fas fa-cog"></i><a href="#">Settings</a></li>
-            <li><i class="fas fa-question"></i><a href="#">Support</a></li>
-            <li><i class="fas fa-shield-alt"></i><a href="#">Privacy</a></li>
+            <li>
+              <span class="material-icons icon-nav">settings</span><a href="#">Settings</a>
+            </li>
+            <li>
+              <span class="material-icons icon-nav">help</span><a href="#">Support</a>
+            </li>
+            <li>
+              <span class="material-icons icon-nav">shield</span><a href="#">Privacy</a>
+            </li>
           </ul>
         </div>
+        </aside>
         <main class="main-content-container">
           <header class="main-content-header-container">
             <div class="header-top-container">
-              <div class="header-top-search-container">
-                <i class="search-i"></i>
+              <div class="header-search-container">
+                <span class="material-icons icon-nav">search</span>
                 <input type="text" />
               </div>
-              <div class="header-top-user-info-card-container">
-                <i class="notification-i"></i>
-                <img src="assets/user-icons/cat-icon.png" alt="User Image" class="user-i" />
+              <div class="header-user-info-container">
+                <span class="material-icons icon-nav">notifications</span>
+                <img
+                  src="assets/user-icons/cat-icon.png"
+                  alt="User Image"
+                />
                 <p>Morgan Oakley</p>
               </div>
             </div>
             <div class="header-bottom-container">
-              <img src="assets/user-icons/cat-icon.png" alt="User Image" class="user-i" />
-              <div>
-                <h2>Hi there,</h2>
-                <h1>Morgan Oakley (@morgan)</h1>
+              <div class="header-user-intro">
+                <img
+                src="assets/user-icons/cat-icon.png"
+                alt="User Image"
+                />
+                <div>
+                  <h3>Hi there,</h3>
+                  <h1>Morgan Oakley (@morgan)</h1>
+                </div>
               </div>
-              <div>
-                <button class="new-button">New</button>
-                <button class="upload-button">Upload</button>
-                <button class="share-button">Share</button>
+              <div class="header-user-actions">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
               </div>
             </div>
           </header>
@@ -70,9 +97,9 @@
                   assumenda!
                 </p>
                 <div class="project-icon-container">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-eye"></i>
-                  <i class="fa fa-share"></i>
+                  <span class="material-icons icon-projects">star</span>
+                  <span class="material-icons icon-projects">visibility</span>
+                  <span class="material-icons icon-projects">share</span>
                 </div>
               </div>
               <div class="project-card">
@@ -83,9 +110,9 @@
                   assumenda!
                 </p>
                 <div class="project-icon-container">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-eye"></i>
-                  <i class="fa fa-share"></i>
+                  <span class="material-icons icon-projects">star</span>
+                  <span class="material-icons icon-projects">visibility</span>
+                  <span class="material-icons icon-projects">share</span>
                 </div>
               </div>
               <div class="project-card">
@@ -96,9 +123,9 @@
                   assumenda!
                 </p>
                 <div class="project-icon-container">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-eye"></i>
-                  <i class="fa fa-share"></i>
+                  <span class="material-icons icon-projects">star</span>
+                  <span class="material-icons icon-projects">visibility</span>
+                  <span class="material-icons icon-projects">share</span>
                 </div>
               </div>
               <div class="project-card">
@@ -109,9 +136,9 @@
                   assumenda!
                 </p>
                 <div class="project-icon-container">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-eye"></i>
-                  <i class="fa fa-share"></i>
+                  <span class="material-icons icon-projects">star</span>
+                  <span class="material-icons icon-projects">visibility</span>
+                  <span class="material-icons icon-projects">share</span>
                 </div>
               </div>
               <div class="project-card">
@@ -122,9 +149,9 @@
                   assumenda!
                 </p>
                 <div class="project-icon-container">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-eye"></i>
-                  <i class="fa fa-share"></i>
+                  <span class="material-icons icon-projects">star</span>
+                  <span class="material-icons icon-projects">visibility</span>
+                  <span class="material-icons icon-projects">share</span>
                 </div>
               </div>
               <div class="project-card">
@@ -135,72 +162,89 @@
                   assumenda!
                 </p>
                 <div class="project-icon-container">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-eye"></i>
-                  <i class="fa fa-share"></i>
-                </div>
-              </div>
-              <div class="project-card">
-                <h3>Money Maker</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-                  perferendis accusantium nam dolor error vero aperiam
-                  assumenda!
-                </p>
-                <div class="project-is-container">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-eye"></i>
-                  <i class="fas fa-share"></i>
+                  <span class="material-icons icon-projects">star</span>
+                  <span class="material-icons icon-projects">visibility</span>
+                  <span class="material-icons icon-projects">share</span>
                 </div>
               </div>
             </div>
           </div>
           <div class="main-content-announcements-container">
-            <div class="announcement-info-card">
-              <h4>Site Maintenance</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-                perferendis accusantium nam dolor error vero aperiam assumenda!
-              </p>
-            </div>
-            <hr />
-            <div class="announcement-info-card">
-              <h4>Community Share Day</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-                perferendis accusantium nam dolor error vero aperiam assumenda!
-              </p>
-            </div>
-            <hr />
-            <div class="announcement-info-card">
-              <h4>Updated Privacy Policy</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-                perferendis accusantium nam dolor error vero aperiam assumenda!
-              </p>
+            <h2>Announcements</h2>
+              <div class="announcement-info-card-container">
+                <div class="announcement-info-card">
+                <h4>Site Maintenance</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                  perferendis accusantium nam dolor error vero aperiam assumenda!
+                </p>
+                <hr>
+              </div>
+              
+              <div class="announcement-info-card">
+                <h4>Community Share Day</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                  perferendis accusantium nam dolor error vero aperiam assumenda!
+                </p>
+                <hr>
+              </div>
+              
+              <div class="announcement-info-card">
+                <h4>Updated Privacy Policy</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                  perferendis accusantium nam dolor error vero aperiam assumenda!
+                </p>
+
+              </div>
             </div>
           </div>
           <div class="main-content-trending-container">
-            <h2>Trending Topics</h2>
-            <div class="user-info-card">
-              <img src="assets/user-icons/bird.png" alt="User Image" class="user-2-i" />
-              <p>@tegan</p>
-              <p>World Peace Builder</p>
-            </div>
-            <div class="user-info-card">
-              <img src="assets/user-icons/cat-icon.png" alt="User Image" class="user-i" />
-              <p>@morgan</p>
-              <p>Super Cool Project</p>
-            </div>
-            <div class="user-info-card">
-              <img src="assets/user-icons/duck-icon.png" alt="User Image" class="user-2-i" />
-              <p>@kendall</p>
-              <p>Life Changing app</p>
-            </div>
-            <div class="user-info-card">
-              <img src="assets/user-icons/dog-icon.jpg" alt="User Image" class="user-i" />
-              <p>@alex</p>
-              <p>No Traffic Maker</p>
+            <h2>Trending</h2>
+
+            <div class="trending-info-card-container">
+              <div class="user-info-card">
+              <img
+                src="assets/user-icons/bird.png"
+                alt="User Image"
+              />
+              <div>
+                <p>@tegan</p>
+                <p>World Peace Builder</p>
+              </div>
+              </div>
+              <div class="user-info-card">
+                <img
+                  src="assets/user-icons/cat-icon.png"
+                  alt="User Image"
+                />
+                <div>                
+                  <p>@morgan</p>
+                  <p>Super Cool Project</p>
+                </div>
+
+              </div>
+              <div class="user-info-card">
+                <img
+                  src="assets/user-icons/duck-icon.png"
+                  alt="User Image"
+                />
+                <div>
+                  <p>@kendall</p>
+                  <p>Life Changing app</p>
+                </div>
+              </div>
+              <div class="user-info-card">
+                <img
+                  src="assets/user-icons/dog-icon.jpg"
+                  alt="User Image"
+                />
+                <div>
+                  <p>@alex</p>
+                  <p>No Traffic Maker</p>
+                </div>
+              </div>
             </div>
           </div>
         </main>
